@@ -1,0 +1,43 @@
+ .new-task__control{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  
+  .new-task__control input {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+  }
+  
+  .new-task__button {
+     text-align: right; 
+  } 
+
+  .new-task {
+    background-color: #6969697c;
+    padding:  1rem;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-task button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 1px solid #40005d;
+    background-color: royalblue;
+    color: white;
+    border-radius: 6px;
+    margin-right: 1rem;
+  }
+  
+  .new-task button:hover,
+  .new-task button:active {
+    background-color: rgb(108, 139, 229);
+    border-color: rgb(108, 139, 229);
+  }
